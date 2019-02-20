@@ -1,0 +1,30 @@
+{
+  "name": "range-collections",
+  "version": "1.0.0",
+  "description": "Implement a 'Range Collection' class",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
+  },
+  "author": "Ronyang <yrong1997@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.0"
+  },
+  "keywords": [
+    "range",
+    "interval",
+    "merge",
+    "intersect"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yrong/rangeCollection"
+  },
+  "bugs": {
+    "url": "https://github.com/yrong/rangeCollection/issues"
+  }
+}
