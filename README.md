@@ -10,16 +10,28 @@
 npm install --save range-collections
 ```
 
+## Test
+
+```bash
+npm test
+```
+
 ## Usage
 
 ```javascript
 const RangeCollection= require('range-collections');
 let rc = new RangeCollection();
+
 rc.add([1, 3]);
-rc.add([2,7]);
+rc.print();
+//=> [1, 3) 
+
+rc.add([2, 7]);
+rc.print();
+//=> [1, 7)
+
 rc.remove([3,5])
 rc.print();
-
 //=> [1, 3) [5, 7)
 ```
 
